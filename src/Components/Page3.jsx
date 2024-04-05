@@ -26,7 +26,7 @@ const Page3 = () => {
     return (
     <div className='w-full h-fit py-10 bg-red-50'>
          <h1 className='text-center text-3xl font-semibold'>How It Works</h1>
-         <div className='w-[90%] m-auto flex flex-wrap items-center gap-5 justify-between mt-10'>
+         <div className='w-[90%] m-auto flex flex-wrap items-center gap-5 justify-center sm:justify-between mt-10'>
            {arr.map(item=>(
             <div className='w-[270px] h-[300px] bg-white rounded-md gap-3 flex  items-center justify-center flex-col p-4'>
                 <div className='bg-pink-700 rounded-full px-3 text-xl text-white py-2'>{item.icon}</div>

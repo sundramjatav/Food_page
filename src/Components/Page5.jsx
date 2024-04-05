@@ -28,7 +28,7 @@ const Page5 = () => {
     return (
     <div className='w-full h-fit py-5'>
     <h1 className='text-center text-3xl font-semibold'>Most Expert chefs</h1>
-         <div className='w-[90%] m-auto flex flex-wrap items-center gap-5 justify-between mt-10'>
+         <div className='w-[90%] m-auto flex flex-wrap items-center gap-5 justify-center sm:justify-between mt-10'>
            {arr.map(item=>(
             <div className='w-[270px] h-[330px] bg-white rounded-md gap-3 flex  justify-center flex-col p-2'>
                 <img className='w-full object-cover mb-4 h-[80%] object-top' src={item.image} alt="" />
